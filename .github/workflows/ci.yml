@@ -28,7 +28,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Compile Java
-      run: javac Main.java
+      run: javac src/Main.java
 
     - name: Run Main class
       run: java Main
